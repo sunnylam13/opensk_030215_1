@@ -1,0 +1,30 @@
+.header {
+	background: $headerbackcolor;
+	height: 20%;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	line-height: $baselineheight*3;
+	padding-top: 3%;
+	padding-right: 3%;
+	padding-left: 3%;
+	padding-bottom: 3%;
+	& .logo {
+		display: inline-block;
+		@include column(9);
+		height: 100%;
+		padding-top: 1%;
+		& img {
+			display: inline-block;
+			float: left;
+		}
+	}
+	& .phoneCTA {
+		// display: inline-block;
+		// @include column(2);
+		height: 100%;
+		& p {
+			font-size: $basefontsize*1.8;
+			color: $headerFontColor;
+		}
+	}
+}
