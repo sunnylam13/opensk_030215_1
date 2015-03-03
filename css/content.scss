@@ -39,4 +39,19 @@
 		font-size: $basefontsize*1.2;
 		text-align: center;
 	}
+	& .disclaimerExitButton input {
+		// display: block;
+		// width: 40%;
+		// margin: 0 auto;
+		// padding: 2%;
+		// border-radius: 10px;
+		// background: $contactFormSubmitBack;
+		// color: $contactFormSumbitColor;
+		// @include transitionEffectAll(0.5s);
+		// text-transform: uppercase;
+		// &:hover {
+		// 	background: $contactFormSubmitHoverBack;
+		// }
+		@include submitButtonStylingV1(40%,2%);
+	}
 }

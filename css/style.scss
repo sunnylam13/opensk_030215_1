@@ -43,6 +43,13 @@ body {
 	z-index: 10;
 }
 
+// this won't override flat-ui CSS
+// body.body2 {
+// 	padding: 0;
+// 	margin: 0;
+// 	background: $basebackcolor;
+// }
+
 .wrapper {
 	max-width: 1200px;
 	margin: 2% auto;
@@ -51,7 +58,7 @@ body {
 }
 
 .main {
-	margin: 2%;
+	margin: 2% -1% 2% 2%;
 	// border: $mainBorder;
 }
 

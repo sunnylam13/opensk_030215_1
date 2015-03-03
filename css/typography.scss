@@ -29,21 +29,27 @@ $contactFormFamily: Arial, Helvetica, sans-serif;
 // FONT COLOURS
 $baseFontColor: lighten(#653082,10%);
 $baseHoverColor: #ab4d63;
+
 $headerFontColor:  white;
 
-$altHoverColorOption1: #ab4d63;
-$altHoverColorOption2: #959437;
-$blockquoteColor: #585858;
-$blogDateColor: #6d6d6d;
-$blogHeadlineColor: #4a4a4a;
-$blogLinkColor: #688dad;
-$blogMetaColor: #575757;
-$blogPageNavColor: #ab4d63;
 $footerFontColor: #4a4a4a;
+$footerFontColorHover: lighten(#1abc9c,2.5%);
+
+$contactFormSumbitColor: white;
+
 $lite1Color: #688dad;
-$sidebarNavFontColor: #fcfcfc;
-$activeJSColor: #ab4d63;
 $contactFormColor: #585858;
+$sidebarNavFontColor: #fcfcfc;
+
+// $activeJSColor: #ab4d63;
+// $altHoverColorOption1: #ab4d63;
+// $altHoverColorOption2: #959437;
+// $blockquoteColor: #585858;
+// $blogDateColor: #6d6d6d;
+// $blogHeadlineColor: #4a4a4a;
+// $blogLinkColor: #688dad;
+// $blogMetaColor: #575757;
+// $blogPageNavColor: #ab4d63;
 
 // FONT SIZES
 $basefontsize:16px;
@@ -53,22 +59,28 @@ $baselineheight:16px;
 
 // BACKGROUND COLORS
 $headerbackcolor: lighten(#1abc9c,2.5%);
+$basebackcolor: darken(white,50%);
+$sidebarNavBack: #6bebd1;
 
-$basebackcolor: darken(white,2.5%);
-$blogDateBack: #EEEEF6;
-$sidebarNavBack: #653082;
-$testimonialBack: #f2f2f2;
-$altHoverBackColOne: #959437;
-$contactFormFieldBack: #f2f2f2;
+$contactFormSubmitBack: #f39c12;
+$contactFormSubmitHoverBack: #d35400;
+$contactFormFieldBack: #ecf0f1;
+
+// $blogDateBack: #EEEEF6;
+// $testimonialBack: #f2f2f2;
+// $altHoverBackColOne: #959437;
+
 
 // BORDERS
 $mainBorder: 1px solid lighten(grey,25%);
+$contactFormHoverBorder: 1px solid #f39c12;
 
-$carouselScrollBorder: 1px solid #dbdbdb;
 $contactFormBorder: 1px solid #dbdbdb;
-$lite1Border: 1px dotted #688dad;
 $sidebarBorderColor: rgba(0, 0, 0, 0.50);
-$tableBorder: 1px solid #dedede;
+$lite1Border: 1px dotted #688dad;
+
+// $carouselScrollBorder: 1px solid #dbdbdb;
+// $tableBorder: 1px solid #dedede;
 
 // HORIZONTAL LINES
 // these use the background selector
@@ -77,6 +89,7 @@ $horizontalLine: transparent url(/images/line.png) repeat-x;
 
 // PADDING
 $sidebarNavPadding: 8% 4% 8% 4%;
+$formTextInputPadding: 1% 2% 1% 2%;
 
 ////////////////////////////////////////////
 ///// 		MIXINS
@@ -120,6 +133,10 @@ a {
 
 .yellowHighlight {
 	background: yellow;
+}
+
+.orangeHighlight {
+	background: #ffbe74;
 }
 
 .crimsonWords {

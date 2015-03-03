@@ -1,3 +1,22 @@
 .footer {
 	clear: both;
+	text-align: center;
+	& ul {
+		margin: 0;
+		padding: 0;
+		& a {
+			color: $footerFontColor;
+			margin: 1%;
+			font-size: $basefontsize*0.7;
+			&:visited {
+				color: $footerFontColor;
+			}
+			&:link {
+				color: $footerFontColor;
+			}
+			&:hover {
+				color: $footerFontColorHover;
+			}
+		}
+	}
 }
