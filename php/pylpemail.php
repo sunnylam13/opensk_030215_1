@@ -11,12 +11,16 @@
   $body .= "Email: " . $_REQUEST["email"] . "\n";
   $body .= "Phone: " . $_REQUEST["phone"] . "\n";
   $body .= "Subject: " . $_REQUEST["subject"] . "\n";
+  $body .= "What Problem: " . $_REQUEST["whatProblem"] . "\n";
+  $body .= "Why Problem: " . $_REQUEST["whyProblem"] . "\n";
+  $body .= "How Problem: " . $_REQUEST["howProblem"] . "\n";
+
   if ($_REQUEST["message"]) {
     $body .= $_REQUEST["message"] . "\n";
   }
   $body .= "----------------------------------------------------\n";
 
-  mail($to,"[Sunny] Message from Golem Capricious Theme Form",$body,"From:$from");
+  mail($to,"[Sunny] Message from Openskej LP 030215",$body,"From:$from");
 
 ?>
 
