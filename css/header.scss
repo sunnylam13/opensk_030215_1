@@ -13,18 +13,47 @@
 		@include column(9);
 		height: 100%;
 		padding-top: 1%;
+		@include desktopR {
+			// padding-bottom: 3%;
+			@include column(8.5);
+		}
+		@include tabletR {
+			padding-top: 4%;
+		}
+		@include phoneR {
+			// width: 75%;
+			padding-top: 11%;
+			@include column(7);
+		}
 		& img {
 			display: inline-block;
 			float: left;
+			@include phoneR {
+				width: 50%;
+			}
 		}
 	}
 	& .phoneCTA {
 		// display: inline-block;
 		// @include column(2);
 		height: 100%;
+		@include desktopR {
+			// padding-bottom: 3%;
+		}
+		@include phoneR {
+			// @include column(3);
+			// display: inline-block;
+			padding-top: 3%;
+		}
 		& p {
 			font-size: $basefontsize*1.8;
 			color: $headerFontColor;
+			@include tabletR {
+				font-size: $basefontsize*1.5;
+			}
+			@include phoneR {
+				font-size: $basefontsize*1.3;
+			}
 		}
 	}
 }

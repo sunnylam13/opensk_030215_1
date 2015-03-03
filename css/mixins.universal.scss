@@ -24,7 +24,7 @@
 	line-height: $baselineheight*24/12;
 	padding-left: 30px;
 	padding-right: 5px;
-	background: transparent url(images/quote.png) no-repeat left 7px;
+	background: transparent url(./images/quote.png) no-repeat left 7px;
 }
 
 @mixin blockquoteCodeClear {
@@ -35,7 +35,7 @@
 	line-height: $baselineheight*24/12;
 	padding-left: 30px;
 	padding-right: 5px;
-	background: transparent url(images/quote.png) no-repeat left 7px;
+	background: transparent url(./images/quote.png) no-repeat left 7px;
 }
 
 @mixin submitButtonStylingV1 ($widthPercent,$paddingPercent) {
