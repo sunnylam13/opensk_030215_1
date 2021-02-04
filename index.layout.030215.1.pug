@@ -1,24 +1,24 @@
 html(lang="en")
 	head
-		include ./includes/meta.jade
-		include ./includes/links.jade
-		include ./includes/scripts.jade 
+		include ./includes/meta.pug
+		include ./includes/links.pug
+		include ./includes/scripts.pug 
 	body
-		include ./includes/googleCode.jade
+		include ./includes/googleCode.pug
 		//- .body2
 		.wrapper
 			block header
-				include ./includes/header.030215.1.jade
+				include ./includes/header.030215.1.pug
 			
 			.main
 				block content
-					include ./includes/content.030215.1.jade
+					include ./includes/content.030215.1.pug
 				block sidebar
-					include ./includes/sidebar.030215.1.jade
+					include ./includes/sidebar.030215.1.pug
 			
 			block testimonials
 
 			block logoSection
 
 			block footer
-				include ./includes/footer.030215.1.jade
+				include ./includes/footer.030215.1.pug
